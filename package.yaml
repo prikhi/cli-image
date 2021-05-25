@@ -65,6 +65,8 @@ executables:
             - -with-rtsopts "-N -T"
         dependencies:
             - cli-image
+            - w3mimgdisplay
+            - data-default
 
 tests:
     cli-image-test:
